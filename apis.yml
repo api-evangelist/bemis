@@ -1,7 +1,11 @@
 aid: bemis
-url: https://raw.githubusercontent.com/api-evangelist/bemis/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/bemis/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.bemis.com
+description: >-
+  A global leader in developing & producing high-quality, responsible packaging solutions
+  for food, beverage, pharmaceutical & other packaging requirements.
