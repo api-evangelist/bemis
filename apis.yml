@@ -26,6 +26,8 @@ tags:
   - Pharmaceutical Packaging
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bemis-company-inc-
   - type: Website
     url: https://www.amcor.com
     title: Amcor (Parent Company)
