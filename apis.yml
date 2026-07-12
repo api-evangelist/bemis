@@ -26,6 +26,8 @@ tags:
   - Pharmaceutical Packaging
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/bemis-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/bemis-company-inc-
   - type: Website
