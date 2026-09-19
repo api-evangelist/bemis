@@ -1,0 +1,26 @@
+generated: '2026-09-19'
+method: searched
+probe: true
+source: https://www.bemis.com/
+note: >-
+  Bemis Company was absorbed into Amcor on 11 June 2019 and publishes nothing under its own
+  name: every conventional legal, privacy, accessibility, security and documentation path on
+  www.bemis.com 301s to https://www.amcor.com/ (the acquirer's homepage, not an equivalent
+  page). Whatever Amcor publishes on those subjects is Amcor's posture and belongs on an Amcor
+  profile, not here. No prior artifacts (security.txt, trust center, lifecycle, conformance)
+  exist to harvest from. An empty signals map is the measurement, not a gap in the pass.
+probed:
+- {url: https://www.bemis.com/accessibility, status: 301}
+- {url: https://www.bemis.com/accessibility/vpat, status: 301}
+- {url: https://www.bemis.com/legal/subprocessors, status: 301}
+- {url: https://www.bemis.com/legal/dpa, status: 301}
+- {url: https://www.bemis.com/privacy/requests, status: 301}
+- {url: https://www.bemis.com/transparency, status: 301}
+- {url: https://www.bemis.com/security/sbom, status: 301}
+- {url: https://www.bemis.com/docs/data-residency, status: 301}
+- {url: https://www.bemis.com/ai/transparency, status: 301}
+- {url: https://www.bemis.com/legal/report-content, status: 301}
+- {url: https://www.bemis.com/privacy, status: 301}
+- {url: https://www.bemis.com/terms, status: 301}
+- {url: https://www.bemis.com/security, status: 301}
+signals: {}

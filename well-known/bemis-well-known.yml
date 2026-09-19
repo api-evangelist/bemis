@@ -1,0 +1,69 @@
+generated: '2026-09-19'
+method: probed
+source: live GET of /.well-known/* on every host the record knows (www.amcor.com, the acquirer's site bemis.com redirects to; www.bemis.com, the company's own domain)
+note: >-
+  No RFC 8615 document is served on any host. www.amcor.com answers every /.well-known/* path
+  with its Next.js HTML 404 page (status 404, not an SPA 200 shell). bemis.com and www.bemis.com
+  301 every path, including /.well-known/*, to https://www.amcor.com/ and serve nothing of their
+  own. www.amcor.com does serve /llms.txt (200, text/plain, ~196 KB) but it is Amcor's own
+  document describing Amcor, so it is NOT saved into this Bemis profile; the impostor domain
+  www.bemisus.com was probed too (404 on every path from a Chinese site-builder error handler)
+  and is deliberately excluded because it is not a Bemis or Amcor property. No WellKnown pointer
+  is emitted: a recorded absence is data, not a surface.
+hosts:
+- host: www.amcor.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.bemis.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+    note: redirects to https://www.amcor.com/
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+    note: redirects to https://www.amcor.com/
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+    note: redirects to https://www.amcor.com/
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+    note: redirects to https://www.amcor.com/
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    file: null
+    note: redirects to https://www.amcor.com/
+  - path: /.well-known/agent-card.json
+    status: 301
+    file: null
+    note: redirects to https://www.amcor.com/
+  - path: /.well-known/agent.json
+    status: 301
+    file: null
+    note: redirects to https://www.amcor.com/

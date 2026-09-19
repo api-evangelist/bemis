@@ -1,7 +1,9 @@
 ---
 title: Amcor Completes Acquisition of Bemis, Creating the ...
 url: https://www.prnewswire.com/news-releases/amcor-completes-acquisition-of-bemis-creating-the-global-leader-in-consumer-packaging-300865415.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Bemis" press release artificial intelligence'
 position: 1
 source: serpapi-google
