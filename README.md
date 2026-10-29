@@ -1,4 +1,4 @@
-# Bemis (bemis)
+# Bemis
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,58 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bemis Company, Inc. was a global leader in developing and producing flexible
-packaging solutions for food, beverage, and pharmaceutical applications. Founded
-in 1858 and headquartered in Neenah, Wisconsin, Bemis completed a $6.8 billion
-merger with Amcor Limited in June 2019, creating the global leader in consumer
-packaging. The combined entity operates as Amcor, and the Bemis brand continues
-as Bemis Manufacturing for FDA-compliant healthcare and pharmaceutical packaging,
-serving customers across 50+ countries with ISO 13485 and ISO 9001 certified
-manufacturing operations.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-**URL:** [https://www.amcor.com](https://www.amcor.com)
+Bemis Company, Inc. was a global manufacturer of flexible packaging for food, beverage, personal care and healthcare markets. Founded in 1858 and headquartered in Neenah, Wisconsin, it completed a $6.8 billion all-stock merger with Amcor Limited on 11 June 2019 and was fully absorbed into Amcor: bemis.com now 301s to www.amcor.com and the Bemis businesses, including its healthcare packaging unit, operate as Amcor Flexibles. Bemis never ran a developer program, and no public API surface exists to profile; www.bemisus.com, which presents itself as Bemis, is an unrelated domain registered in December 2025.
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+**Areas:** Amcor · Consumer Packaging · Flexible Packaging · Food Packaging · Healthcare Packaging · Manufacturing · Packaging · Pharmaceutical Packaging
 
-## Tags:
+## Bemis on APIs.io (historical record)
 
- - Amcor, Consumer Packaging, Flexible Packaging, Food Packaging, Healthcare Packaging, Manufacturing, Packaging, Pharmaceutical Packaging
+Everything profiled for Bemis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bemis/](https://apis.io/providers/bemis/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-23
-- **Modified:** 2026-04-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Common Properties
+#### Security (1)
 
-- [Amcor (Parent Company)](https://www.amcor.com)
-- [Bemis Healthcare Packaging](https://www.bemisus.com)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Features
+- [Bemis Domain Security](https://apis.io/security/bemis/bemis-domain-security/)
 
-| Name | Description |
-|------|-------------|
-| Flexible Packaging Manufacturing | Bemis/Amcor manufactures flexible packaging solutions for food, beverage, personal care, and pharmaceutical markets, including pouches, films, bags, and lidding materials. |
-| Healthcare and Pharmaceutical Packaging | FDA-compliant packaging solutions for medical devices, pharmaceuticals, and diagnostics, manufactured under ISO 13485 and ISO 9001 quality management systems. |
-| Sustainable Packaging | Bemis and Amcor invest in recyclable, compostable, and reduced-material packaging innovations as part of the combined company's sustainability commitments. |
-| Global Manufacturing Network | The combined Bemis/Amcor manufacturing network spans 40+ countries with hundreds of manufacturing facilities serving consumer goods companies, retailers, and pharmaceutical manufacturers worldwide. |
+## API Evangelist rating
 
-## Use Cases
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-| Name | Description |
-|------|-------------|
-| Food and Beverage Packaging | Flexible packaging for snack foods, dairy, frozen foods, beverages, and other consumer food products requiring barrier properties, shelf-life extension, and retail presentation. |
-| Pharmaceutical and Medical Device Packaging | FDA-registered, ISO-certified flexible packaging for pharmaceuticals, medical devices, and diagnostic products requiring sterile barrier protection and regulatory compliance. |
-| Personal Care Packaging | Flexible packaging and films for cosmetics, personal care, and household product brands requiring printability, material compatibility, and supply chain efficiency. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Amcor | Bemis Company completed its merger with Amcor Limited in June 2019 in a $6.8 billion all-stock transaction, creating a single global packaging leader operating under the Amcor brand. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bemis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bemis/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
